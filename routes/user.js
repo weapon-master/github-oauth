@@ -34,7 +34,7 @@ router.get('/api/user', async (req, res) => {
 
 router.get('/account', (req, res) => {
   if (req.user) {
-    res.send(Object.keys(req));
+    res.send(req.session);
   } else {
     res.redirect('/api/github/auth');
   }
