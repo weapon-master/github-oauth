@@ -1,0 +1,39 @@
+Arguments: 
+  /usr/local/bin/node /Users/demon-monk/.yarn/bin/yarn.js add nodemon -D
+
+PATH: 
+  /Users/demon-monk/.yarn/bin:/Users/demon-monk/.config/yarn/global/node_modules/.bin:/Users/demon-monk/project/flutter-installed/flutter/bin:/Users/demon-monk/Downloads/cocos2d-x-3.17.2/templates:/Users/demon-monk/Downloads:/Users/demon-monk/Downloads/cocos2d-x-3.17.2/tools/cocos2d-console/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/demon-monk/.yarn/bin:/Users/demon-monk/.config/yarn/global/node_modules/.bin:/Users/demon-monk/project/flutter-installed/flutter/bin:/Users/demon-monk/Downloads/cocos2d-x-3.17.2/templates:/Users/demon-monk/Downloads:/Users/demon-monk/Downloads/cocos2d-x-3.17.2/tools/cocos2d-console/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.14.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npmjs.org/nodemon: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:1081
+      at ClientRequest.onError (/Users/demon-monk/.yarn/lib/cli.js:151950:17)
+      at Object.onceWrapper (events.js:273:13)
+      at ClientRequest.emit (events.js:182:13)
+      at Socket.socketErrorListener (_http_client.js:392:9)
+      at Socket.emit (events.js:182:13)
+      at emitErrorNT (internal/streams/destroy.js:82:8)
+      at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "nodejs-api",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
